@@ -3,9 +3,14 @@
     font-family: 'Roboto Slab', serif;
 }
 
-header{
+header h2{
     font-size: 200%;
     padding: 0% 2% 0% 2%;
+}
+nav{
+    float: left;
+    padding: 0% 2% 0% 0%;
+
 }
 
 #maincol{
