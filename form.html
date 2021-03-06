@@ -6,7 +6,7 @@
     <title>Taj Masala</title>
     <link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">   
 </head>
 <body>
     <header>
@@ -30,7 +30,7 @@
     </header>
     <section class="form-section">
         <form method="post" action="https://formdump.codeinstitute.net/" class="order-form">
-           <h2>Make your Order here! <!--<i class="fas fa-heartbeat"></i>-->></h2>
+           <h2>Make your Order here!</h2>
            <label for="fname">First Name</label>
            <input type="text" id="fname" name="first_name" required class="text-input">
            <label for="lname">Last Name</label>
@@ -41,12 +41,21 @@
            <input type="radio" id="road" name="order_preference" value="collection" required>
            <label for="home">Home Delivery</label>
            <input type="radio" id="home" name="order_preference" value="home-delivery">
+           <label for="order">Write your order here</label>
+           <textarea id="order" rows="10" cols="10"></textarea>
+
+
            <input type="submit" value="Order!" class="order-button">
+
        </form>
     </section> 
-    <footer>
-        
-    </footer>
     
+    <footer>
+        <span>Find us on:</span>
+            <a href="//www.facebook.com" target="blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="//twitter.com" target="blank"><i class="fab fa-twitter-square"></i></a>
+            <a href="//www.instagram.com" target="blank"><i class="fab fa-instagram-square"></i></a>
+    </footer>
+        
 </body>
 </html>
